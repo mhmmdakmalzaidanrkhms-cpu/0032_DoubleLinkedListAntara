@@ -1,4 +1,4 @@
-// AkhirBelakang_DoubleLinkedList
+// 0032_DoubleLinkedList
 #include <iostream>
 #include <string>
 using namespace std;
@@ -9,4 +9,10 @@ public:
     int noMhs;
     Node *next;
     Node *prev;
+};
+
+class DoubleLinkedList
+{
+private:
+    Node *START;
 };
